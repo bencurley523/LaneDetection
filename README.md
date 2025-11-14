@@ -2,7 +2,9 @@
 
 > End-to-end Unity project that renders a camera feed, runs a lane-segmentation model on-device, and overlays a translucent mask in real time.
 
-![](https://github.com/LaneDetection/lane_det.gif)
+<video src="recordings/lane_det.mp4" controls autoplay loop muted playsinline width="600">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
