@@ -1,10 +1,8 @@
-# Real-Time Lane Detection in Unity (GPUCompute)
+# Real-Time Lane Detection in Unity
 
-> End-to-end Unity project that renders a camera feed, runs a lane-segmentation model on-device, and overlays a translucent mask in real time.
+> End-to-end Unity project that renders a camera feed, runs a lane-segmentation model, and overlays a translucent mask in real time.
 
-<video src="recordings/lane_det.mp4" controls autoplay loop muted playsinline width="600">
-  Your browser does not support the video tag.
-</video>
+![Lane detection demo](recordings/lane_det.gif)
 
 ---
 
@@ -38,5 +36,5 @@
 
 ## Notebooks
 
-- `Notebooks/canny_edge.ipynb` — quick classical-vision baseline(s)
+- `Notebooks/canny_edge.ipynb` — quick OpenCV baseline
 - `Notebooks/cnn_lane_det.ipynb` — training/inference playground for a lightweight lane CNN
